@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='/css/gui-part2.css' rel='stylesheet' type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="/user.js" type="text/javascript"></script>
+  <title>Update User Page</title>
+</head>
+
+<body onload="init2()">
+  <div class='login-center2'>
+    <div class='text-center'>
+      <h2 class='mb-3'>Update User</h2>
+      <!--Row 1-->
+      <div class='row'>
+        <div class='col'>
+          <input id='usernameU' class='form-control' placeholder='Username' required autofocus>
+        </div>
+        <div class='col'>
+          <input type='password' id='passwordU' class='form-control' placeholder='Password' required autofocus>
+        </div>
+      </div>
+      <!--Row 2-->
+      <div class='row'>
+        <div class='col'>
+          <input id='nameU' class='mt-3 form-control' placeholder='First_name' required autofocus>
+        </div>
+        <div class='col'>
+          <input id='surnameU' class='mt-3 form-control' placeholder='Last_name' required autofocus>
+        </div>
+      </div>
+      <!--Row 3-->
+      <div class='row'>
+        <div class='col'>
+          <input id='ageU' class='mt-3 form-control' placeholder='Age' required autofocus>
+        </div>
+        <div class='col'>
+          <input id='addressU' class='mt-3 form-control' placeholder='Address' required autofocus>
+        </div>
+      </div>
+      <!--Row 4-->
+      <div class='row'>
+        <div class='col'>
+          <select class="mt-3 form-select" aria-label="Default select example" id="genderU">
+            <option selected>Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+        <div class='col'>
+          <input id='phoneU' class='mt-3 form-control' placeholder='Phone_Number' required autofocus>
+        </div>
+      </div>
+      <!--Row 5-->
+      <div class='row'>
+        <div class='col'>
+          <select class="mt-3 form-select" aria-label="Default select example" id="roleU">
+            <option selected>Role</option>
+            <option value="Admin">Admin</option>
+            <option value="Moderator">Moderator</option>
+          </select>
+        </div>
+        <div class='col'>
+          <input id='idU' class='mt-3 form-control' placeholder='Id' required autofocus>
+        </div>
+      </div>
+      <button class='mt-3 mb-3 btn btn-lg btn-secondary btn' id='btnUpdateOneUser'>Update</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
